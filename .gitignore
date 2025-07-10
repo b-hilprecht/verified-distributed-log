@@ -1,0 +1,9 @@
+*.out
+*.err
+portfolio/
+Test.cs
+pom.xml
+*.csproj
+PCheckerOutput/
+PGenerated/
+*.bkp
