@@ -1,5 +1,9 @@
 # P verification of distributed log
 
+## Blog 
+
+Find out about the project [here](https://b-hilprecht.github.io/2025/07/10/p-verified-log-1-the-need-for-verification.html).
+
 ## Setup
 
 Install the [P programming language](https://p-org.github.io/P/).
