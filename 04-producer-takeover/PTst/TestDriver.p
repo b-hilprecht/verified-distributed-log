@@ -55,6 +55,6 @@ fun InitializeLoggingSpecs(numReplicas: int, numEntries: int, totalProducers: in
     announce eMonitor_CommitDurability, numReplicas;
     announce eMonitor_Progress, (numEntries = numEntries, totalProducers = totalProducers);
     announce eMonitor_ReadCommitted;
-    announce eMonitor_SingleWriter;
+    announce eMonitor_SingleProducer;
 }
 
