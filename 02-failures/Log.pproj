@@ -1,0 +1,13 @@
+<!-- P project file for the Log service -->
+<Project>
+<ProjectName>Log</ProjectName>
+<InputFiles>
+	<PFile>./PSrc/</PFile>
+	<PFile>./PSpec/</PFile>
+	<PFile>./PTst/</PFile>
+</InputFiles>
+<OutputDir>./PGenerated/</OutputDir>
+<!-- Add the dependencies for the FailureInjector machine -->
+<IncludeProject>../common/FailureInjector/FailureInjector.pproj</IncludeProject>
+<IncludeProject>../common/Timer/Timer.pproj</IncludeProject>
+</Project>

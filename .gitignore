@@ -7,3 +7,5 @@ pom.xml
 PCheckerOutput/
 PGenerated/
 *.bkp
+repomix-output.xml
+.DS_Store
